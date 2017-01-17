@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Lecture1Interfaces
 {
-    class Shape
+    abstract class Shape
     {
+        public abstract double Area();  
+
     }
 }
